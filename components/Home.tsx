@@ -29,7 +29,7 @@ export default function Home() {
           <div className="flex space-x-4 mt-6">
             {[
               { icon: Github, href: 'https://github.com/AkemiFF' },
-              { icon: Facebook, href: 'https://web.facebook.com/profile.php?id=100087854169286' },
+              { icon: Facebook, href: 'https://www.facebook.com/bradake.2024' },
               { icon: Instagram, href: 'https://www.instagram.com/mirado_ake/' },
               { icon: Youtube, href: 'https://www.youtube.com/channel/UCHUrgV1y72UZkqoczia1_lQ' },
             ].map(({ icon: Icon, href }, index) => (

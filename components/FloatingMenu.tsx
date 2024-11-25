@@ -7,7 +7,7 @@ export default function FloatingMenu() {
       <div className="flex flex-col space-y-3">
         {[
           { icon: Github, href: 'https://github.com/AkemiFF' },
-          { icon: Facebook, href: 'https://web.facebook.com/profile.php?id=100087854169286' },
+          { icon: Facebook, href: 'https://www.facebook.com/bradake.2024' },
           { icon: Instagram, href: 'https://www.instagram.com/mirado_ake/' },
           { icon: Mail, href: 'mailto:mirado.akemi@gmail.com' },
         ].map(({ icon: Icon, href }, index) => (
