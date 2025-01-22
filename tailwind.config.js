@@ -11,10 +11,10 @@ module.exports = {
         'fade-in': 'fadeIn 1s ease-out',
         'fade-in-up': 'fadeInUp 1s ease-out',
         'float': 'float 3s ease-in-out infinite',
-        'glow': 'glow 2s ease-in-out infinite alternate',
+        // 'glow': 'glow 2s ease-in-out infinite alternate',
         'rotate-slow': 'rotate 20s linear infinite',
         'spin-slow': 'spin 10s linear infinite',
-        'ping-slow': 'ping 3s cubic-bezier(0, 0, 0.2, 1) infinite',
+        // 'ping-slow': 'ping 3s cubic-bezier(0, 0, 0.2, 1) infinite',
       },
       keyframes: {
         fadeIn: {
