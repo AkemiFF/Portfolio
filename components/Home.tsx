@@ -7,19 +7,27 @@ export default function Home() {
     <section id="home" className="min-h-screen flex flex-col justify-center bg-gray-900 bg-opacity-50 backdrop-filter backdrop-blur-sm p-4 sm:p-8">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between">
         <div className="lg:w-1/2 text-gray-100 mb-8 lg:mb-0 pr-0 lg:pr-8">
-          <h3 className="text-xl sm:text-2xl font-bold mb-2 animate-fade-in-up">Hello, it&apos;s me</h3>
-          <h1 className="text-4xl sm:text-5xl font-bold text-cyan-400 mb-4 animate-glow">Brad Mirado</h1>
+          <h3 className="text-xl sm:text-2xl font-bold mb-2 animate-fade-in-up">
+            Hello, it&apos;s me
+          </h3>
+          <h1 className="text-4xl sm:text-5xl font-bold text-cyan-400 mb-4 animate-glow">
+            Brad Mirado
+          </h1>
           <h3 className="text-xl sm:text-2xl font-bold mb-4">
-            And I am a <span className="text-cyan-400 animate-pulse">Developer</span>
+            And I am a <span className="text-cyan-400 animate-pulse">Full-Stack Developer</span>
           </h3>
           <p className="text-base sm:text-lg mb-6 animate-fade-in opacity-80">
-            Welcome to my website! I am passionate about programming and web development.
-            My goal is to create interactive and user-friendly web applications according to your needs.
+            Welcome to my website! I am passionate about programming, web development, and building scalable solutions.
+            I specialize in creating interactive, dynamic, and user-friendly web applications tailored to your unique needs.
           </p>
           <p className="text-base sm:text-lg mb-6 animate-fade-in opacity-80">
-            Feel free to explore my site to discover my projects and skills. If you have any questions or
-            would like to collaborate, don&apos;t hesitate to contact me.
+            I am also the founder of <a href="https://nexuscraft.onrender.com" target="_blank" rel="noopener noreferrer" className="text-cyan-400 underline">
+              NexusCraft</a>, a digital innovation agency dedicated to crafting exceptional web experiences.
           </p>
+          {/* <p className="text-base sm:text-lg mb-6 animate-fade-in opacity-80">
+            Feel free to explore my site to discover my projects and skills. If you have any questions or would like to collaborate,
+            don&apos;t hesitate to <a href="#contact" className="text-cyan-400 underline">contact me</a>.
+          </p> */}
           <Link
             href="https://github.com/AkemiFF/cv-brad-mirado/archive/refs/heads/main.zip"
             className="inline-block bg-cyan-500 text-gray-900 px-6 py-3 rounded-full font-bold hover:bg-cyan-400 transition-all duration-300 transform hover:scale-105 animate-bounce"
