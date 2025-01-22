@@ -8,9 +8,9 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Akemi Portfolio',
+  title: 'Brad Portfolio',
   description: 'Portfolio of Brad Mirado, a FullStack Developer',
-  icons: "/logo.png"
+  icons: "/logoX.png"
 }
 
 export default function RootLayout({
@@ -20,6 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+
       <body className={`${inter.className} bg-transparent text-gray-100`}>
         <MatrixRain />
         <Header />
